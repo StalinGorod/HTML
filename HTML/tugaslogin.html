@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Style Form Dengan CSS</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+        body {
+            background-color: #2d2d2d;
+        }
+
+        .container {
+            width: 400px;
+            height: 300px;
+            margin: auto;
+            background-color: white;
+            border-radius: 10px;
+            padding: 10px;
+        }
+
+        input[type=text] {
+            width: 94%;
+            border-radius: 3px;
+            padding: 10px;
+            border: 1px solid gray;
+        }
+
+        input[type=password] {
+            width: 94%;
+            border-radius: 3px;
+            padding: 10px;
+            border: 1px solid gray;
+        }
+
+        input[type=submit] {
+            text-align: center;
+            border-radius: 3px;
+            background-color: darkgreen;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            border: 1px solid gray;
+            cursor: pointer;
+            border-bottom: 2px;
+        }
+
+        input[type=submit]:hover {
+            background-color: green;
+        }
+
+        .kt1 {
+            color: gray;
+            font-family: 'Pacifico', cursive;
+        }
+
+        .kt2 {
+            color: green;
+            font-family: 'Pacifico', cursive;
+        }
+
+        .tag2 {
+            text-align: center;
+        }
+
+        .box1 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .box2 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <Form action=""><br>
+                <h1 class="tag2">
+                    <span class="kt1">Log</span><span class="kt2">IN</span>
+                    <span class="kt1">Form</span>
+                </h1>
+                <label class="tag1">Username</label><br>
+                <input type="text" name="username" placeholder="Please enter your name..." class="box1"><br>
+                <label>Password</label><br>
+                <input type="password" name="password" placeholder="Please enter your password..." class="box2"><br><br>
+                <input type="submit" name="login" value="LogIN">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

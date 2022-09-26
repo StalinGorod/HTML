@@ -1,0 +1,18 @@
+#coba1 {
+    color: aquamarine;
+    font-size: 50px;
+    font-family: monospace;
+    background-color: transparent;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+.coba3 {
+    letter-spacing: 0.5cm;
+    color: bisque;
+    font-size: 50px;
+    font-family: initial;
+    background-color: teal;
+    text-align: center;
+
+}
